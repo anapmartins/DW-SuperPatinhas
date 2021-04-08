@@ -43,7 +43,7 @@ export default function Profile() {
                     Cadastrar Novo Evento
                 </Link>
 
-                <Link className="button" to="/dashboard">
+                <Link className="button" to="/profile">
                     Dashboard
                 </Link>
 
