@@ -71,7 +71,7 @@ export default function Profile() {
             <h1>Dados Cadastrados</h1>
             <div>
                 <ul>
-                    {incidents.forEach(incident => (
+                    {incidents.map(incident => (
                         <li key={incident.id}>
                             <strong>Título</strong>
                             <p>{incident.title}</p>
